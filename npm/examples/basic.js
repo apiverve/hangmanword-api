@@ -15,7 +15,7 @@ const api = new hangmanwordAPI({
 
 // Example query
 var query = {
-  category: "animals",
+  category: "random",
   difficulty: "medium",
   count: 1
 };
