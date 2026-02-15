@@ -11,22 +11,19 @@ namespace APIVerve.API.HangmanWordGenerator
     public class HangmanWordGeneratorQueryOptions
     {
         /// <summary>
-        /// Category: random, animals, countries, foods, sports, colors, occupations
-        /// Example: animals
+        /// Word category
         /// </summary>
         [JsonProperty("category")]
         public string Category { get; set; }
 
         /// <summary>
-        /// Difficulty: easy, medium, hard
-        /// Example: medium
+        /// Difficulty level
         /// </summary>
         [JsonProperty("difficulty")]
         public string Difficulty { get; set; }
 
         /// <summary>
-        /// Number of words (1-10)
-        /// Example: 1
+        /// Number of words
         /// </summary>
         [JsonProperty("count")]
         public string Count { get; set; }
