@@ -44,7 +44,11 @@ from apiverve_hangmanwordgenerator.apiClient import HangmanwordAPIClient
 # Initialize the client with your APIVerve API key
 api = HangmanwordAPIClient("[YOUR_API_KEY]")
 
-query = { "category": "random", "difficulty": "medium", "count": 1 }
+query = {
+    "category": "random",
+    "difficulty": "medium",
+    "count": 1
+}
 
 try:
     # Make the API call
@@ -82,7 +86,11 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```python
-query = { "category": "random", "difficulty": "medium", "count": 1 }
+query = {
+    "category": "random",
+    "difficulty": "medium",
+    "count": 1
+}
 ```
 
 ###### Simple Request
@@ -134,7 +142,11 @@ from apiverve_hangmanwordgenerator.apiClient import HangmanwordAPIClient, Hangma
 
 api = HangmanwordAPIClient("[YOUR_API_KEY]")
 
-query = { "category": "random", "difficulty": "medium", "count": 1 }
+query = {
+    "category": "random",
+    "difficulty": "medium",
+    "count": 1
+}
 
 try:
     result = api.execute(query)
@@ -155,7 +167,11 @@ from apiverve_hangmanwordgenerator.apiClient import HangmanwordAPIClient, Hangma
 
 api = HangmanwordAPIClient("[YOUR_API_KEY]")
 
-query = { "category": "random", "difficulty": "medium", "count": 1 }
+query = {
+    "category": "random",
+    "difficulty": "medium",
+    "count": 1
+}
 
 try:
     result = api.execute(query)
@@ -189,7 +205,11 @@ The client supports the context manager protocol for automatic resource cleanup:
 ```python
 from apiverve_hangmanwordgenerator.apiClient import HangmanwordAPIClient, HangmanwordAPIClientError
 
-query = { "category": "random", "difficulty": "medium", "count": 1 }
+query = {
+    "category": "random",
+    "difficulty": "medium",
+    "count": 1
+}
 
 # Using context manager ensures proper cleanup
 with HangmanwordAPIClient("[YOUR_API_KEY]") as api:
@@ -215,7 +235,11 @@ from apiverve_hangmanwordgenerator.apiClient import HangmanwordAPIClient
 # Enable debug mode
 api = HangmanwordAPIClient("[YOUR_API_KEY]", debug=True)
 
-query = { "category": "random", "difficulty": "medium", "count": 1 }
+query = {
+    "category": "random",
+    "difficulty": "medium",
+    "count": 1
+}
 
 # Debug information will be printed to console
 result = api.execute(query)
@@ -230,8 +254,13 @@ from apiverve_hangmanwordgenerator.apiClient import HangmanwordAPIClient
 
 api = HangmanwordAPIClient("[YOUR_API_KEY]")
 
+query = {
+    "category": "random",
+    "difficulty": "medium",
+    "count": 1
+}
+
 try:
-    query = { "category": "random", "difficulty": "medium", "count": 1 }
     result = api.execute(query)
     print(result)
 finally:
