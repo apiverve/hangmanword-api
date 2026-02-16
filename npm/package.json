@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/hangmanword",
-  "version": "1.1.13",
+  "version": "1.1.14",
   "description": "Hangman Word Generator provides random words for hangman games with category filtering and difficulty levels based on word length.",
   "main": "index.js",
   "types": "index.d.ts",
