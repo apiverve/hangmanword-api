@@ -17,7 +17,8 @@ const api = new hangmanwordAPI({
 var query = {
   category: "random",
   difficulty: "medium",
-  count: 1
+  count: 1,
+  image: false
 };
 
 // Make the API request using callback
