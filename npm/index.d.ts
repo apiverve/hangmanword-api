@@ -4,30 +4,50 @@ declare module '@apiverve/hangmanword' {
     secure?: boolean;
   }
 
+  /**
+   * Describes fields the current plan does not unlock. Locked fields arrive as null
+   * in `data`; `locked_fields` names them, using dot paths for nested fields.
+   * Absent when the plan unlocks everything.
+   */
+  export interface PremiumInfo {
+    message: string;
+    upgrade_url: string;
+    locked_fields: string[];
+  }
+
   export interface hangmanwordResponse {
     status: string;
     error: string | null;
     data: HangmanWordGeneratorData;
     code?: number;
+    premium?: PremiumInfo;
   }
 
 
   interface HangmanWordGeneratorData {
       words:      Word[];
-      count:      number;
-      difficulty: string;
-      category:   string;
-      html:       string;
+      count:      number | null;
+      difficulty: null | string;
+      category:   null | string;
+      html:       null | string;
+      image:      Image;
+  }
+  
+  interface Image {
+      imageName:   null | string;
+      format:      null | string;
+      downloadURL: null | string;
+      expires:     number | null;
   }
   
   interface Word {
-      word:          string;
-      blanks:        string;
-      length:        number;
-      uniqueLetters: number;
-      difficulty:    string;
-      category:      string;
-      maxGuesses:    number;
+      word:          null | string;
+      blanks:        null | string;
+      length:        number | null;
+      uniqueLetters: number | null;
+      difficulty:    null | string;
+      category:      null | string;
+      maxGuesses:    number | null;
   }
 
   export default class hangmanwordWrapper {
