@@ -30,7 +30,7 @@ class hangmanwordWrapper {
         this.baseURL = 'https://api.apiverve.com/v1/hangmanword';
 
         // Validation rules for parameters (generated from schema)
-        this.validationRules = {"category":{"type":"string","required":false,"default":"random"},"difficulty":{"type":"string","required":false,"default":"medium"},"count":{"type":"integer","required":false,"min":1,"max":10,"default":1}};
+        this.validationRules = {"category":{"type":"string","required":false,"default":"random"},"difficulty":{"type":"string","required":false,"default":"medium"},"count":{"type":"integer","required":false,"min":1,"max":10,"default":1},"image":{"type":"boolean","required":false,"default":false}};
     }
 
     /**
