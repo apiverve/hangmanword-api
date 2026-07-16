@@ -25,6 +25,9 @@ namespace APIVerve.API.HangmanWordGenerator
 
         [JsonProperty("data")]
         public Data Data { get; set; }
+
+        [JsonProperty("premium")]
+        public Premium Premium { get; set; }
     }
 
     public partial class Data
@@ -33,7 +36,7 @@ namespace APIVerve.API.HangmanWordGenerator
         public Word[] Words { get; set; }
 
         [JsonProperty("count")]
-        public long Count { get; set; }
+        public long? Count { get; set; }
 
         [JsonProperty("difficulty")]
         public string Difficulty { get; set; }
@@ -43,6 +46,24 @@ namespace APIVerve.API.HangmanWordGenerator
 
         [JsonProperty("html")]
         public string Html { get; set; }
+
+        [JsonProperty("image")]
+        public Image Image { get; set; }
+    }
+
+    public partial class Image
+    {
+        [JsonProperty("imageName")]
+        public string ImageName { get; set; }
+
+        [JsonProperty("format")]
+        public string Format { get; set; }
+
+        [JsonProperty("downloadURL")]
+        public Uri DownloadUrl { get; set; }
+
+        [JsonProperty("expires")]
+        public long? Expires { get; set; }
     }
 
     public partial class Word
@@ -54,10 +75,10 @@ namespace APIVerve.API.HangmanWordGenerator
         public string Blanks { get; set; }
 
         [JsonProperty("length")]
-        public long Length { get; set; }
+        public long? Length { get; set; }
 
         [JsonProperty("uniqueLetters")]
-        public long UniqueLetters { get; set; }
+        public long? UniqueLetters { get; set; }
 
         [JsonProperty("difficulty")]
         public string Difficulty { get; set; }
@@ -66,6 +87,18 @@ namespace APIVerve.API.HangmanWordGenerator
         public string Category { get; set; }
 
         [JsonProperty("maxGuesses")]
-        public long MaxGuesses { get; set; }
+        public long? MaxGuesses { get; set; }
+    }
+
+    public partial class Premium
+    {
+        [JsonProperty("message")]
+        public string Message { get; set; }
+
+        [JsonProperty("upgrade_url")]
+        public Uri UpgradeUrl { get; set; }
+
+        [JsonProperty("locked_fields")]
+        public string[] LockedFields { get; set; }
     }
 }
