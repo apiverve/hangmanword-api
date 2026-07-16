@@ -26,6 +26,12 @@ namespace APIVerve.API.HangmanWordGenerator
         /// Number of words
         /// </summary>
         [JsonProperty("count")]
-        public string Count { get; set; }
+        public int? Count { get; set; }
+
+        /// <summary>
+        /// Set to true to generate a downloadable puzzle image
+        /// </summary>
+        [JsonProperty("image")]
+        public bool? Image { get; set; }
     }
 }
