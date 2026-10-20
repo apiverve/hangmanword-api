@@ -10,14 +10,14 @@ if os.path.exists(requirements_file):
 
 setup(
     name='apiverve_hangmanwordgenerator',
-    version='1.1.14',
+    version='1.2.2',
     packages=find_packages(),
     include_package_data=True,
     install_requires=install_requires,
-    description='Hangman Word Generator provides random words for hangman games with category filtering and difficulty levels based on word length.',
+    description='Hangman Word Generator provides random hangman words for word games, with difficulty levels based on word length and, on paid plans, category filtering.',
     author='APIVerve',
     author_email='hello@apiverve.com',
-    url='https://apiverve.com/marketplace/hangmanword?utm_source=pypi&utm_medium=homepage',
+    url='https://apiverve.com/marketplace/hangmanword?utm_source=pypi&utm_medium=referral&utm_content=homepage',
     classifiers=[
         'Programming Language :: Python :: 3',
         'Operating System :: OS Independent',
