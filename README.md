@@ -1,13 +1,13 @@
-# [Hangman Word Generator API](https://apiverve.com/marketplace/hangmanword?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+# [Hangman Word Generator API](https://apiverve.com/marketplace/hangmanword?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 
-Hangman Word Generator provides random words for hangman games with category filtering and difficulty levels based on word length.
+Hangman Word Generator provides random hangman words for word games, with difficulty levels based on word length and, on paid plans, category filtering.
 
 The Hangman Word Generator API provides a simple, reliable way to integrate hangman word generator functionality into your applications. Built for developers who need production-ready hangman word generator capabilities without the complexity of building from scratch.
 
-**[View API Details →](https://apiverve.com/marketplace/hangmanword?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)**
+**[View API Details →](https://apiverve.com/marketplace/hangmanword?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com/marketplace/hangmanword?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com/marketplace/hangmanword?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 [![Method](https://img.shields.io/badge/Method-GET-blue.svg)](#)
 [![Platform](https://img.shields.io/badge/Platform-Multi--Platform-orange.svg)](#installation)
 
@@ -161,7 +161,7 @@ go get github.com/apiverve/hangmanword-api/go
 
 ## Documentation
 
-- 🏠 **API Home:** [Hangman Word Generator API](https://apiverve.com/marketplace/hangmanword?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+- 🏠 **API Home:** [Hangman Word Generator API](https://apiverve.com/marketplace/hangmanword?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 - 📚 **API Reference:** [docs.apiverve.com/ref/hangmanword](https://docs.apiverve.com/ref/hangmanword)
 - 📖 **OpenAPI Spec:** [openapi.yaml](./openapi.yaml)
 - 💡 **Examples:** [examples/](./examples/)
@@ -240,7 +240,7 @@ A real response from the Hangman Word Generator API:
 
 ## Support & Community
 
-- 🏠 **API Home**: [Hangman Word Generator API](https://apiverve.com/marketplace/hangmanword?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+- 🏠 **API Home**: [Hangman Word Generator API](https://apiverve.com/marketplace/hangmanword?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 - 💬 **Support**: [https://apiverve.com/contact](https://apiverve.com/contact)
 - 🐛 **Issues**: [GitHub Issues](../../issues)
 - 📖 **Documentation**: [https://docs.apiverve.com](https://docs.apiverve.com)

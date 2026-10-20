@@ -2,8 +2,9 @@ openapi: 3.0.4
 info:
   title: Hangman Word Generator
   description: >-
-    Hangman Word Generator provides random words for hangman games with category
-    filtering and difficulty levels based on word length.
+    Hangman Word Generator provides random hangman words for word games, with
+    difficulty levels based on word length and, on paid plans, category
+    filtering.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support
@@ -18,7 +19,7 @@ servers:
 paths:
   /v1/hangmanword:
     get:
-      summary: Generate Hangman Words
+      summary: Hangman Word Generator
       description: Get random words for hangman
       operationId: hangmanword
       parameters:
@@ -101,8 +102,7 @@ paths:
                   image:
                     imageName: d6e69eac-546c-4a2b-8413-2b65fd4a109a_hangman.png
                     format: .png
-                    downloadURL: >-
-                      https://storage.googleapis.com/apiverve/APIData/hangmanword/d6e69eac-546c-4a2b-8413-2b65fd4a109a_hangman.png?GoogleAccessId=635500398038-compute%40developer.gserviceaccount.com&Expires=1766010232&Signature=En2KyqlZwODc1wOwqTyuVtHq5LqNHuFXdn9Xw6nKlwhmB2SMV9HTSwpfVi9SS1tC6tnq0sntOPZ4ANH8McPxnjqFJhT2VKXAObQSRha6IHR9J1ymSpH%2F5TJ4AmlRZ8nLvW1jXPWjNvnUvgrd%2BfN5zK1u9pQ1MYatBVeg63y0rOdxSPcJBMX%2BDdgzG1lJK3Rmugr0HWoVb9ocfk8R%2FGVPsLXzHuwZySOk%2BCyQ1IZAWoqYuX7v3wKf3JHhiK9ZQ%2FG58j2dSychhcDsBZyKXN1wSpRsRB%2F03F6zKkykiiVw%2FuGr9kjPGK1QRJ9XJZzLZ0Z9S%2BQ6ZoD5FrCJwTIVXTPHxg%3D%3D
+                    downloadURL: https://storage.googleapis.com/apiverve/APIData/hangmanword/d6e69eac-546c-4a2b-8413-2b65fd4a109a_hangman.png?GoogleAccessId=635500398038-compute%40developer.gserviceaccount.com&Expires=1766010232&Signature=En2KyqlZwODc1wOwqTyuVtHq5LqNHuFXdn9Xw6nKlwhmB2SMV9HTSwpfVi9SS1tC6tnq0sntOPZ4ANH8McPxnjqFJhT2VKXAObQSRha6IHR9J1ymSpH%2F5TJ4AmlRZ8nLvW1jXPWjNvnUvgrd%2BfN5zK1u9pQ1MYatBVeg63y0rOdxSPcJBMX%2BDdgzG1lJK3Rmugr0HWoVb9ocfk8R%2FGVPsLXzHuwZySOk%2BCyQ1IZAWoqYuX7v3wKf3JHhiK9ZQ%2FG58j2dSychhcDsBZyKXN1wSpRsRB%2F03F6zKkykiiVw%2FuGr9kjPGK1QRJ9XJZzLZ0Z9S%2BQ6ZoD5FrCJwTIVXTPHxg%3D%3D
                     expires: 1766010232291
         '401':
           description: Your request was not authorized, or your API Key was invalid
