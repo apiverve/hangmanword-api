@@ -1,7 +1,7 @@
 {
   "name": "@apiverve/hangmanword",
-  "version": "1.2.0",
-  "description": "Hangman Word Generator provides random words for hangman games with category filtering and difficulty levels based on word length.",
+  "version": "1.2.2",
+  "description": "Hangman Word Generator provides random hangman words for word games, with difficulty levels based on word length and, on paid plans, category filtering.",
   "main": "index.js",
   "types": "index.d.ts",
   "sideEffects": false,
@@ -23,7 +23,7 @@
     "directory": "npm"
   },
   "keywords": [
-    "hangman", "word game", "guess the word", "word generator", "party game"
+    "hangman word generator", "hangman words generator", "hangman generator", "hangman api", "hangman categories"
   ],
   "author": {
     "name": "APIVerve",
@@ -34,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/apiverve/hangmanword-api/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/hangmanword?utm_source=npm&utm_medium=homepage",
+  "homepage": "https://apiverve.com/marketplace/hangmanword?utm_source=npm&utm_medium=referral&utm_content=homepage",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
