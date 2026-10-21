@@ -1,7 +1,7 @@
 {
     "name": "apiverve/hangmanword",
-    "description": "Hangman Word Generator provides random words for hangman games with category filtering and difficulty levels based on word length.",
-    "version": "1.2.0",
+    "description": "Hangman Word Generator provides random hangman words for word games, with difficulty levels based on word length and, on paid plans, category filtering.",
+    "version": "1.2.2",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -15,13 +15,13 @@
         "api",
         "apiverve",
         "hangmanword",
-        "hangman",
-        "word game",
-        "guess the word",
-        "word generator",
-        "party game"
+        "hangman word generator",
+        "hangman words generator",
+        "hangman generator",
+        "hangman api",
+        "hangman categories"
     ],
-    "homepage": "https://apiverve.com/marketplace/hangmanword?utm_source=php&utm_medium=homepage",
+    "homepage": "https://apiverve.com/marketplace/hangmanword?utm_source=php&utm_medium=referral&utm_content=homepage",
     "support": {
         "email": "hello@apiverve.com",
         "docs": "https://docs.apiverve.com/ref/hangmanword",
