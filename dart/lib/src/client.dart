@@ -46,12 +46,13 @@ final _formatPatterns = {
 
 /// Hangman Word Generator API client.
 ///
-/// For more information, visit: https://apiverve.com/marketplace/hangmanword?utm_source=dart&utm_medium=readme
+/// For more information, visit: https://apiverve.com/marketplace/hangmanword?utm_source=dart&utm_medium=referral&utm_content=readme
 ///
 /// Parameters:
 /// * [category] - Word category
 /// * [difficulty] - Difficulty level
 /// * [count] - Number of words [min: 1, max: 10]
+/// * [image] - Set to true to generate a downloadable puzzle image
 class HangmanwordClient {
   final String apiKey;
   final String baseUrl;
@@ -62,6 +63,7 @@ class HangmanwordClient {
     'category': ValidationRule(type: 'string', required: false),
     'difficulty': ValidationRule(type: 'string', required: false),
     'count': ValidationRule(type: 'integer', required: false, min: 1, max: 10),
+    'image': ValidationRule(type: 'boolean', required: false),
   };
 
   HangmanwordClient(this.apiKey, {

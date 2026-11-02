@@ -1,7 +1,7 @@
 name: apiverve_hangmanword
-description: Hangman Word Generator provides random words for hangman games with category filtering and difficulty levels based on word length.
-version: 1.1.14
-homepage: https://apiverve.com/marketplace/hangmanword?utm_source=dart&utm_medium=homepage
+description: "Hangman Word Generator provides random hangman words for word games, with difficulty levels based on word length and, on paid plans, category filtering."
+version: 1.2.4
+homepage: https://apiverve.com/marketplace/hangmanword?utm_source=dart&utm_medium=referral&utm_content=homepage
 repository: https://github.com/apiverve/hangmanword-api/tree/main/dart
 
 environment:
